@@ -24,5 +24,5 @@ label = iris.target
 clf = KNeighborsClassifier()
 clf.fit(features,label)
 
-predict = clf.predict([[2,4,5,8]])
+predict = clf.predict([[9.1,9.5,6.4,0.2]])
 print(predict)
